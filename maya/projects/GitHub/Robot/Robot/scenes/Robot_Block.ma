@@ -1,7 +1,12 @@
 //Maya ASCII 2017 scene
 //Name: Robot_Block.ma
+<<<<<<< Updated upstream
 //Last modified: Wed, Feb 08, 2017 06:02:55 PM
 //Codeset: 1252
+=======
+//Last modified: Tue, Feb 07, 2017 03:42:46 PM
+//Codeset: UTF-8
+>>>>>>> Stashed changes
 requires maya "2017";
 currentUnit -l centimeter -a degree -t film;
 fileInfo "application" "maya";
@@ -13,8 +18,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "8959623E-7942-835B-B9D0-59AD266361F6";
 	setAttr ".v" no;
+<<<<<<< Updated upstream
 	setAttr ".t" -type "double3" -0.66215811087225696 0.40106713123036886 9.2010706811155512 ;
 	setAttr ".r" -type "double3" -3.9383527302757848 -721.79999999986796 1.2430175265602919e-017 ;
+=======
+	setAttr ".t" -type "double3" -2.5928564677649009 1.5663988440453265 8.3217897446484947 ;
+	setAttr ".r" -type "double3" -7.5383527306811846 340.59999999997757 0 ;
+>>>>>>> Stashed changes
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "BED43DF7-AB43-A74E-C812-4CA8FD118B2C";
 	setAttr -k off ".v" no;
